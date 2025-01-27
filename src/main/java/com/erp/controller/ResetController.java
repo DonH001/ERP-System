@@ -17,6 +17,6 @@ public class ResetController {
     public String resetDatabase() {
         String sql = "TRUNCATE TABLE employees; TRUNCATE TABLE products; TRUNCATE TABLE orders; TRUNCATE TABLE order_item; TRUNCATE TABLE inventory;";
         jdbcTemplate.execute(sql);
-        return "Database reset successfully";
+        return "Database reset successfully!";
     }
 }
