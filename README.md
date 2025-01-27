@@ -60,7 +60,3 @@ To reset the database and clear all management data, you can use the reset endpo
 ![Order Management](screenshots/orders.png)
 ![Inventory Management](screenshots/inventory.png)
 ![Reporting](screenshots/reports.png)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
