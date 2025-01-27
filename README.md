@@ -22,6 +22,14 @@ Enterprise Resource Planning System built with Spring Boot and Oracle Database.
 5. Run `mvn clean install`
 6. Start the application with `java -jar target/erp-system-1.0.0.jar`
 
+## Resetting the Database
+
+To reset the database and clear all management data, you can use the reset endpoint:
+
+1. Navigate to the dashboard.
+2. Click the "Reset Database" button.
+3. Confirm the action.
+
 ## API Endpoints
 
 - GET /api/employees - Retrieve all employees
