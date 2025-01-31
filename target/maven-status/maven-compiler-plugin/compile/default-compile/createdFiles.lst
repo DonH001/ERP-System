@@ -24,6 +24,7 @@ com\erp\model\User.class
 com\erp\service\OrderService.class
 com\erp\config\SecurityConfig.class
 com\erp\controller\HomeController.class
+com\erp\controller\ResetController.class
 com\erp\repository\UserRepository.class
 com\erp\repository\OrderRepository.class
 com\erp\model\Employee.class
