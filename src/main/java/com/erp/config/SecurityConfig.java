@@ -20,7 +20,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .authorizeRequests()
-                .antMatchers("/", "/login", "/register", "/reset").permitAll()
+                .antMatchers("/", "/login", "/register").permitAll()
                 .anyRequest().authenticated()
                 .and()
             .formLogin()
@@ -33,7 +33,7 @@ public class SecurityConfig {
                 .permitAll()
                 .and()
             .csrf()
-                .ignoringAntMatchers("/login", "/register", "/reset"); // Disable CSRF protection for login, register, and reset endpoints
+                .ignoringAntMatchers("/login", "/register"); // Disable CSRF protection for login and register endpoints
         return http.build();
     }
 

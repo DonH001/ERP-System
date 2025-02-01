@@ -54,9 +54,9 @@ To reset the database and clear all management data, you can use the reset endpo
 
 ## Screenshots
 
-![Dashboard](screenshots/dashboard.png)
-![Employee Management](screenshots/employees.png)
-![Product Management](screenshots/products.png)
-![Order Management](screenshots/orders.png)
-![Inventory Management](screenshots/inventory.png)
-![Reporting](screenshots/reports.png)
+![Dashboard](screenshots/Dashboard.png)
+![Employee Management](screenshots\EmployeeMangement.png)
+![Product Management](screenshots\ProductMangement.png)
+![Order Management](screenshots\OrderMangement.png)
+![Inventory Management](screenshots\InventoryMangement.png)
+![Reporting](screenshots\Reports.png)
